@@ -1,0 +1,104 @@
+{
+  "navbar": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "news": "News",
+    "courses": "Courses",
+    "project": "Projects",
+    "contact": "Contact"
+  },
+  "testimonials": {
+    "label": "Academy",
+    "navigation": "Fields of study",
+    "student_count": "Students",
+    "project_count": "Projects"
+  },
+  "hero": {
+    "news": "News",
+    "courses": "Courses",
+    "projects": "Projects",
+    "teacher": "Teachers",
+    "students": "Students",
+    "partners": "Colobrating Organizations"
+  },
+  "coursepage": {
+    "title": "Explore Our Categories",
+    "descr": "ICT Academy is a place of learning that has more than 10,000 students to date, fully specializing in numerous areas of programming.",
+    "continue": "Continue",
+    "btn": "Explore Categories",
+    "moduls": "Course modules",
+    "info_course": "Information about the course",
+    "info_teach": "Teacher information"
+  },
+  "teacherpage": {
+    "title": "Our Teachers",
+    "descr": "Our teachers are real heroes, you can get acquainted with them below",
+    "stage": "Years of experience",
+    "count_student": "Students studied",
+    "all_project": "All projects",
+    "status": "Status"
+  },
+  "contactpage": {
+    "title": "ICT Academy",
+    "descr": "ICT ACADEMY - a training center providing reliable and trustworthy IT knowledge with 7 years of experience",
+    "name": "Your name and surname",
+    "email": "Your email address",
+    "phone": "Your phone number",
+    "message": "Message...",
+    "btn": "Send",
+    "sending": "Sending...",
+    "success_message": "Your message has been sent successfully!",
+    "error_message": "An error occurred. Please try again.",
+    "errors": {
+      "name_required": "Name is required",
+      "email_required": "Email is required",
+      "email_invalid": "Invalid email address",
+      "phone_required": "Phone is required",
+      "phone_invalid": "Invalid phone number",
+      "message_required": "Message is required",
+      "message_min_length": "Message must be at least 10 characters",
+      "message_max_length": "Message must not exceed 500 characters"
+    }
+  },
+  "footer": {
+    "descr": "ICT Academy will help you choose your future profession, develop your personal career and develop the software products you need for your professional business.",
+    "address": "Get in Touch",
+    "time": "Office time",
+    "net": "Social network"
+  },
+  "news": {
+    "title": "Latest news about us",
+    "descr": "Get to know us and stay up to date with the latest news about us",
+    "full": "Read in detail",
+    "rating": "New",
+    "notfound": "No news found",
+    "message": "New news coming soon"
+  },
+  "project": {
+    "title": "Featured Projects",
+    "descr": "Discover innovative solutions and creative implementations crafted with passion and precision",
+    "view": "View Project",
+    "go": "Go to the Site"
+  },
+  "about": {
+    "name": "ICT Academy",
+    "descr": "An educational center with 7 years of experience providing high-quality and reliable IT knowledge. We introduce young people to modern technologies and prepare them to succeed in the global market.",
+    "btn": "View our courses",
+    "whywe": "Why choose us",
+    "stage": "Perfect teaching method with 7 years of experience",
+    "cowork": "Free coworking spaces",
+    "laptop": "Temporary provision of laptops",
+    "mentor": "Opportunity to consult mentors anytime",
+    "sertificate": "Diploma and certificate after completing the course",
+    "practice": "Real projects and teams for practice",
+    "job": "Preparation for jobs in foreign companies",
+    "en": "English classes once a week",
+    "team": "Our team",
+    "team_info": "Our team consists of experienced instructors who provide individual attention to each student and prepare them to succeed in the IT world."
+  },
+  "test": {
+  "mes-first": "The site is running in test mode",
+  "mes-second": "New data is being added"
+}
+
+}

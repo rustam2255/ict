@@ -1,0 +1,33 @@
+/** @type {import('next-sitemap').IConfig} */
+module.exports = {
+  siteUrl: 'https://ictacademy.uz',
+  generateRobotsTxt: true,
+  sitemapSize: 5000,
+  additionalPaths: async (config) => {
+    const paths = [
+      await config.transform(config, '/'),
+      await config.transform(config, '/about'),
+      await config.transform(config, '/news'),
+      await config.transform(config, '/courses'),
+      await config.transform(config, '/projects'),
+      await config.transform(config, '/contact'),
+    ];
+
+    // News 1-10
+    for (let i = 1; i <= 10; i++) {
+      paths.push(await config.transform(config, `/news/${i}`));
+    }
+
+    // Courses 1-10
+    for (let i = 1; i <= 10; i++) {
+      paths.push(await config.transform(config, `/courses/${i}`));
+    }
+
+    // Projects 1-10
+    for (let i = 1; i <= 10; i++) {
+      paths.push(await config.transform(config, `/projects/${i}`));
+    }
+
+    return paths;
+  },
+};

@@ -1,0 +1,103 @@
+{
+   "navbar": {
+      "home": "Bosh sahifa",
+      "aboutUs": "Biz haqimizda",
+      "news": "Yangiliklar",
+      "courses": "Kurslar",
+      "project": "Loyihalar",
+      "contact": "Aloqa"
+   },
+   "testimonials": {
+      "label": "Akademiya",
+      "navigation": "O'quv yo'nalishlari",
+      "student_count": "Talabalar",
+      "project_count": "Loyihalar"
+   },
+   "hero": {
+      "news": "Yangiliklar",
+      "courses": "Kurslar",
+      "projects": "Loyihalar",
+      "teacher": "O‘qituvchilar",
+      "students": "Talabalar",
+      "partners": "Hamkor tashkilotlar"
+   },
+   "coursepage": {
+      "title": "Yo‘nalishlarimizni kashf eting",
+      "descr": "ICT Academy bugungi kunga qadar 10 000 dan ortiq talabaga ega bo‘lgan, dasturlashning ko‘plab sohalariga to‘liq ixtisoslashgan o‘quv maskanidir.",
+      "continue": "Davom etish",
+      "btn": "Yo‘nalishlarni ko‘rish",
+      "moduls": "Kurs modullari",
+      "info_course": "Kurs haqida ma'lumot",
+      "info_teach": "O'qituvchi haqida ma'lumot"
+   },
+   "teacherpage": {
+      "title": "Ustozlarimiz",
+      "descr": "Ustozlarimiz chinakam qahramonlar, ular bilan quyida tanishishingiz mumkin",
+      "stage": "Tajriba yillari",
+      "count_student": "Ta'lim olgan talabalar",
+      "all_project": "Barcha loyihalar",
+      "status": "Holati"
+   },
+   "contactpage": {
+      "title": "ICT Academy",
+      "descr": "ICT ACADEMY-7 yillik tajribaga ega sigatli va ishonchli IT bilimlarini beruvchi o’quv markaz",
+      "name": "Ismingiz va familiyangiz",
+      "email": "Email manzilingiz",
+      "phone": "Telefon raqamingiz",
+      "message": "Xabar...",
+      "btn": "Jo'natish",
+      "sending": "Yuborilmoqda...",
+      "success_message": "Xabaringiz muvaffaqiyatli yuborildi!",
+      "error_message": "Xatolik yuz berdi. Iltimos, qayta urinib ko‘ring.",
+      "errors": {
+         "name_required": "Ism kiritilishi shart",
+         "email_required": "Email kiritilishi shart",
+         "email_invalid": "Email manzili noto‘g‘ri",
+         "phone_required": "Telefon kiritilishi shart",
+         "phone_invalid": "Telefon raqami noto‘g‘ri",
+         "message_required": "Xabar kiritilishi shart",
+         "message_min_length": "Xabar kamida 10 ta belgidan iborat bo‘lishi kerak",
+         "message_max_length": "Xabar 500 ta belgidan oshmasligi kerak"
+      }
+   },
+   "footer": {
+      "descr": "ICT akademiyasi kelajakdagi kasbingizni tanlashda, shaxsiy karerangizni rivojlantirishda va professional biznesingiz uchun zarur bo'lgan dasturiy mahsulotlarni ishlab chiqishda yordam beradi.",
+      "address": "Aloqa uchun",
+      "time": "Ish vaqti",
+      "net": "Ijtimoiy tarmoqlar"
+   },
+   "news": {
+      "title": "Biz haqimizda eng so'nggi yangiliklar",
+      "descr": "Tanishib chiqing va biz haqimizdagi so'nggi yangiliklar haqida xabardor bo'ling",
+      "full": "Batasil o'qish",
+      "rating": "Yangilik",
+      "notfound": "Yangiliklar topilmadi",
+      "message": " Tez orada yangi yangiliklar qoshiladi"
+   },
+   "project": {
+      "title": "Maqsadli loyihalar",
+      "descr": "Ishtirok va aniqlik bilan yaratilgan innovatsion yechimlar va ijodiy tatbiqlarni kashf eting",
+      "view": "Loyihani ko'rish",
+      "go": "Saytga o'tish"
+   },
+   "about": {
+      "name": "ICT Akademiyasi",
+      "descr": "7 yillik tajribaga ega sifatli va ishonchli IT bilimlarini beruvchi o'quv markaz. Biz yoshlarni zamonaviy texnologiyalar bilan tanishtiramiz va ularni global bozorda muvaffaqiyatli mutaxassis qilamiz.",
+      "btn": "Kurslarimizni ko'rish",
+      "whywe": "Nima uchun bizni tanlash kerak",
+      "stage": "7 yillik tajribaga ega mukammal o'qitish metodi",
+      "cowork": "Bepul coworking joylar",
+      "laptop": "Vaqtinchalik noutbuklar bilan ta'minlash",
+      "mentor": "Istalgan vaqtda mentorlardan maslahat olish imkoniyati",
+      "sertificate": "Kursni tamomlagandan so'ng diplom va sertifikat",
+      "practice": "Amaliyot o'tash uchun real loyiha va jamoa",
+      "job": "Chet el kompaniyalariga ishga kriish uchun tayyorlov",
+      "en": "Haftada bir kun ingliz tili darslari",
+      "team": "Bizning jamoa",
+      "team_info": "Tajribali instruktorlardan iborat jamoamiz har bir talabaga individual yondashuv ko'rsatadi va ularni IT olamida muvaffaqiyatga erishishga tayyorlaydi."
+   },
+   "test": {
+      "mes-first": "Sayt test rejimida ishlamoqda",
+      "mes-second": "Yangi ma'lumotlar qo‘shilmoqda"
+   }
+}
