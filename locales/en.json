@@ -45,6 +45,8 @@
     "email": "Your email address",
     "phone": "Your phone number",
     "message": "Message...",
+    "invalid_email": "Please enter a valid email",
+    "invalid_phone": "Please enter a valid phone number",
     "btn": "Send",
     "sending": "Sending...",
     "success_message": "Your message has been sent successfully!",

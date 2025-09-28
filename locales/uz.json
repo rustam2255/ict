@@ -45,6 +45,8 @@
       "email": "Email manzilingiz",
       "phone": "Telefon raqamingiz",
       "message": "Xabar...",
+      "invalid_phone": "Telefon raqamni to'gri kiriting",
+      "invalid_email": "Elektron pochtani to'g'ri kiriting",
       "btn": "Jo'natish",
       "sending": "Yuborilmoqda...",
       "success_message": "Xabaringiz muvaffaqiyatli yuborildi!",
