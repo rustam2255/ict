@@ -15,7 +15,7 @@ interface CourseCardProps {
 
 export const CourseCard = ({ course }: CourseCardProps) => {
   const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 })
-  const { t} = useTranslation()
+  const { t } = useTranslation()
   return (
     <motion.div
       ref={ref}
@@ -69,8 +69,8 @@ export const CourseCard = ({ course }: CourseCardProps) => {
 }
 
 const CourseSection = () => {
-    const { i18n, t } = useTranslation()
-    const lang = i18n.language;
+  const { i18n, t } = useTranslation()
+  const lang = i18n.language;
   const { data, error, isLoading } = useGetCoursesQuery({
     limit: 6,
     offset: 0,
@@ -108,9 +108,12 @@ const CourseSection = () => {
 
       {/* Explore Button */}
       <div className="flex items-center justify-center">
-        <button className="w-[200px] sm:w-[220px] lg:w-[240px] h-[40px] sm:h-[45px] lg:h-[50px] text-[14px] sm:text-[16px] lg:text-[18px] font-semibold text-black text-center cursor-pointer flex items-center justify-center rounded-[35px] sm:rounded-[40px] lg:rounded-[45px] border-2 border-green-700 bg-gradient-to-l from-[#3EFEA1] to-[#259860] hover:from-[#2FE091] hover:to-[#1F8050] transition-all duration-300 hover:scale-105">
-          {t("coursepage.btn")}
-        </button>
+        <Link href={'/courses'}>
+          <button className="w-[200px] sm:w-[220px] lg:w-[240px] h-[40px] sm:h-[45px] lg:h-[50px] text-[14px] sm:text-[16px] lg:text-[18px] font-semibold text-black text-center cursor-pointer flex items-center justify-center rounded-[35px] sm:rounded-[40px] lg:rounded-[45px] border-2 border-green-700 bg-gradient-to-l from-[#3EFEA1] to-[#259860] hover:from-[#2FE091] hover:to-[#1F8050] transition-all duration-300 hover:scale-105">
+            {t("coursepage.btn")}
+          </button>
+        </Link>
+
       </div>
     </motion.div>
   )
