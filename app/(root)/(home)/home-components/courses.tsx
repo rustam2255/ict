@@ -52,7 +52,7 @@ export const CourseCard = ({ course }: CourseCardProps) => {
           {/* Modules */}
           <div className="space-y-1 sm:space-y-1">
             {course.moduls?.length > 0 ? (
-              course.moduls.map((item, index) => (
+              course.moduls.slice(0, 5).map((item, index) => (
                 <div key={index} className="flex items-center">
                   <Dot className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 text-green-400 flex-shrink-0" />
                   <p className="text-[12px] sm:text-[14px] text-gray-300">{item}</p>
@@ -61,6 +61,7 @@ export const CourseCard = ({ course }: CourseCardProps) => {
             ) : (
               <p className="text-gray-400 text-sm">No modules available</p>
             )}
+
           </div>
         </div>
       </Link>
