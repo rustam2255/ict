@@ -45,6 +45,16 @@ const nextConfig = {
         hostname: 'asi.tourism-uzbekistan.uz',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'api.ictacademy.uz',
+        pathname: '/**',
+      },
+       {
+        protocol: 'http',
+        hostname: 'api.ictacademy.uz',
+        pathname: '/**',
+      },
     ],
   }
 }
