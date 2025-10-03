@@ -16,13 +16,13 @@ const Test = () => {
     <div className="bg-gradient-to-b from-[#1d573b]/75 to-[#0D2537]/75 h-12 flex items-center overflow-hidden relative">
       <div className="whitespace-nowrap flex animate-marquee">
         {messages.map((msg, i) => (
-          <span key={i} className="mx-8 text-white text-lg font-medium">
+          <span key={i} className="mx-8 text-white text-[26px] font-medium">
             {msg}
           </span>
         ))}
         {/* takrorlangan yozuvlar (infinite uchun) */}
         {messages.map((msg, i) => (
-          <span key={`dup-${i}`} className="mx-8 text-white text-lg font-medium">
+          <span key={`dup-${i}`} className="mx-8 text-white text-[26px] font-medium">
             {msg}
           </span>
         ))}
@@ -31,7 +31,7 @@ const Test = () => {
       <style jsx>{`
         .animate-marquee {
           display: inline-flex;
-          animation: marquee 15s linear infinite;
+          animation: marquee 25s linear infinite;
         }
         @keyframes marquee {
           0% {
